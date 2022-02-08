@@ -30,7 +30,7 @@ const Nav = () => {
 
     return (
         <Box>
-            <Box display="flex" justifyContent="center" sx={{ mt: 1 }}>
+            <Box display="flex" justifyContent="center" sx={{ bgcolor: "primary.light", p:1 }}>
                 {uniques.map((cat, index) => (
                     <Button
                         key={index}
@@ -43,11 +43,10 @@ const Nav = () => {
                     </Button>
                 ))}
             </Box>
-            <Divider sx={{ my: 1 }} />
             <Grid container spacing={4} sx={{ px: 6, pt: 1 }}>
                 {cards.map((card) =>
                     card.filtered === true ? (
-                        <Grid item xs={12} sm={6} md={4} lg={3} xl={2} key={card.id}>
+                        <Grid item xs={12} sm={6} md={4} xl={2} key={card.id}>
                             <FeatureCard
                                 image={card.image}
                                 title={card.title}

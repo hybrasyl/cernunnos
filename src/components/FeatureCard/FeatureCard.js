@@ -5,7 +5,7 @@ function FeatureCard(data) {
     const { image, title, stage, description, target, category } = data;
 
     return (
-        <Card sx={{ maxWidth: 400, boxShadow: 4, bgcolor: "tertiary.dark"}}>
+        <Card sx={{ maxWidth: 700, boxShadow: 4, bgcolor: "tertiary.dark", "&:hover": { border:2, borderColor:"quaternary.light", boxShadow:0}}}>
             <CardMedia component="img" height="200" image={`/images/${image}`} alt={title} data-category={category} />
             <Divider />
             <CardContent>
@@ -23,7 +23,6 @@ function FeatureCard(data) {
                 </Typography>
                 <Typography variant="body2" component="div">
                     {description}
-                    {category}
                 </Typography>
             </CardContent>
         </Card>
