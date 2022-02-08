@@ -22,7 +22,7 @@ const featureData = [
         title: "Test 3",
         stage: "Stage 3",
         description: "Description 3",
-        category: "Category 1",
+        category: "Category 2",
         image: "image 3",
         target: "TargetDate 3",
     },
@@ -40,10 +40,44 @@ const featureData = [
         title: "Test 5",
         stage: "Stage 5",
         description: "Description 5",
-        category: "Category 2",
+        category: "Category 3",
         image: "image 5",
         target: "TargetDate 5",
     },
 ]
 
 export default featureData
+
+/*
+hot reloading, for all types
+script refactoring (unification of lua types)
+async dialogs
+social event support in lua
+player housing 
+guild housing
+dungeons 
+new lancher 
+xml editor(s)
+Asynchronous / threaded game logic
+Fear / charm / etc (statuses 3.0)
+Combat detection support 
+Improved / more interesting AI
+Cults 
+Manufacturing 
+Player shops
+Theatre
+Account manager updates
+Password reset
+Character linking
+website - new home page, da-wizard style pages, loures library integration
+ham 2fa
+Github to Game Board Integration
+Ham messaging support
+forward ingame mail to email, daily digest
+external/internal cutscene support
+architectural improvements, improved launcher, editor, administrative improvements
+new client
+new assets
+instance server
+
+*/

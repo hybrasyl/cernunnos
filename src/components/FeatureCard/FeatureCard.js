@@ -23,6 +23,7 @@ function FeatureCard(data) {
                 </Typography>
                 <Typography variant="body2" component="div">
                     {description}
+                    {category}
                 </Typography>
             </CardContent>
         </Card>
