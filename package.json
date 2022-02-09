@@ -1,6 +1,7 @@
 {
   "name": "cernunnos",
   "version": "0.1.0",
+  "homepage": "http://hybrasyl.github.io/cernunnos",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
