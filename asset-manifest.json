@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cernunnos/static/css/main.6e630c84.css",
-    "main.js": "/cernunnos/static/js/main.e0cc95a8.js",
+    "main.js": "/cernunnos/static/js/main.a62362ab.js",
     "static/js/787.6d5cc1be.chunk.js": "/cernunnos/static/js/787.6d5cc1be.chunk.js",
     "static/media/mileth.png": "/cernunnos/static/media/mileth.d6c59d1d6268f1fa4167.png",
     "static/media/rucesion.png": "/cernunnos/static/media/rucesion.ea42dddd1ee440fa0326.png",
@@ -20,11 +20,11 @@
     "static/media/yaldevi-latin-ext-400-normal.woff2": "/cernunnos/static/media/yaldevi-latin-ext-400-normal.40a01cc927b890fe29b7.woff2",
     "index.html": "/cernunnos/index.html",
     "main.6e630c84.css.map": "/cernunnos/static/css/main.6e630c84.css.map",
-    "main.e0cc95a8.js.map": "/cernunnos/static/js/main.e0cc95a8.js.map",
+    "main.a62362ab.js.map": "/cernunnos/static/js/main.a62362ab.js.map",
     "787.6d5cc1be.chunk.js.map": "/cernunnos/static/js/787.6d5cc1be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e630c84.css",
-    "static/js/main.e0cc95a8.js"
+    "static/js/main.a62362ab.js"
   ]
 }
