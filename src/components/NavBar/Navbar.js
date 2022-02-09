@@ -16,7 +16,7 @@ const Nav = () => {
         if (categoryName === "All") {
             const filtered = featureData.map((data) => ({
                 ...data,
-                filtered: data.category.includes("Category 1"),
+                filtered: data.category.includes("Architecture"),
             }));
             setCards(filtered);
         } else {
@@ -30,23 +30,24 @@ const Nav = () => {
 
     return (
         <Box>
-            <Box display="flex" justifyContent="center" sx={{ bgcolor: "primary.light", p:1 }}>
+            <Box display="flex" flexWrap="wrap" justifyContent="center" sx={{ bgcolor: "primary.light", p:1 }}>
                 {uniques.map((cat, index) => (
                     <Button
                         key={index}
                         variant="contained"
                         active={cat === categoryName ? "true" : undefined}
-                        sx={{ mx: 1 }}
+                        sx={{ mx: 1, my: .5, minWidth: 150, maxWidth: 150}}
+                        size="small"
                         onClick={() => setCategoryName({ cat })}
                     >
                         {cat}
                     </Button>
                 ))}
             </Box>
-            <Grid container spacing={4} sx={{ px: 6, pt: 1 }}>
+            <Grid container spacing={4} sx={{ px: 6, pt: 1, }}>
                 {cards.map((card) =>
                     card.filtered === true ? (
-                        <Grid item xs={12} sm={6} md={4} xl={2} key={card.id}>
+                        <Grid item xs={12} sm={6} md={4} xl={3} key={card.id}>
                             <FeatureCard
                                 image={card.image}
                                 title={card.title}
