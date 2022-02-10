@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cernunnos/static/css/main.6e630c84.css",
-    "main.js": "/cernunnos/static/js/main.cb114058.js",
+    "main.js": "/cernunnos/static/js/main.77d69bec.js",
     "static/js/787.6d5cc1be.chunk.js": "/cernunnos/static/js/787.6d5cc1be.chunk.js",
     "static/media/mileth.png": "/cernunnos/static/media/mileth.d6c59d1d6268f1fa4167.png",
     "static/media/rucesion.png": "/cernunnos/static/media/rucesion.ea42dddd1ee440fa0326.png",
@@ -15,7 +15,19 @@
     "static/media/theater.png": "/cernunnos/static/media/theater.8267f3b5f029fb68d835.png",
     "static/media/placeholder.png": "/cernunnos/static/media/placeholder.0c548f29623824496be1.png",
     "static/media/warehouse.png": "/cernunnos/static/media/warehouse.33546a98b06afa421a86.png",
+    "static/media/pip_cosmic.png": "/cernunnos/static/media/pip_cosmic.1a6409b6d70f7a953b1c.png",
+    "static/media/pip_psychic.png": "/cernunnos/static/media/pip_psychic.5e75d306f1f3a45736f9.png",
+    "static/media/pip_dark.png": "/cernunnos/static/media/pip_dark.43b3af98a85d21f910c8.png",
+    "static/media/pip_fire.png": "/cernunnos/static/media/pip_fire.b0be54839018b249b201.png",
+    "static/media/pip_nature.png": "/cernunnos/static/media/pip_nature.b405c04923f54b654f86.png",
+    "static/media/pip_earth.png": "/cernunnos/static/media/pip_earth.2cf1b74da1d25a8cb868.png",
+    "static/media/pip_water.png": "/cernunnos/static/media/pip_water.4d450c2e25333557cf13.png",
+    "static/media/pip_air.png": "/cernunnos/static/media/pip_air.097199985753a63ce78f.png",
+    "static/media/pip_time.png": "/cernunnos/static/media/pip_time.ef829f385c82f489373d.png",
+    "static/media/pip_light.png": "/cernunnos/static/media/pip_light.1f529987787df0a6f48e.png",
+    "static/media/pip_frost.png": "/cernunnos/static/media/pip_frost.7632e09dba47c8a0688a.png",
     "static/media/yaldevi-all-400-normal.woff": "/cernunnos/static/media/yaldevi-all-400-normal.dbb3deed15b549132f61.woff",
+    "static/media/pip_electricity.png": "/cernunnos/static/media/pip_electricity.11efc4f70edf62e4b391.png",
     "static/media/creidhne.png": "/cernunnos/static/media/creidhne.0c41baf0e70cf5eb4ebf.png",
     "static/media/yaldevi-sinhala-400-normal.woff2": "/cernunnos/static/media/yaldevi-sinhala-400-normal.9df702884b228a1fe3d4.woff2",
     "static/media/implemented.png": "/cernunnos/static/media/implemented.ad89b604eab3267eb3eb.png",
@@ -23,11 +35,11 @@
     "static/media/yaldevi-latin-ext-400-normal.woff2": "/cernunnos/static/media/yaldevi-latin-ext-400-normal.40a01cc927b890fe29b7.woff2",
     "index.html": "/cernunnos/index.html",
     "main.6e630c84.css.map": "/cernunnos/static/css/main.6e630c84.css.map",
-    "main.cb114058.js.map": "/cernunnos/static/js/main.cb114058.js.map",
+    "main.77d69bec.js.map": "/cernunnos/static/js/main.77d69bec.js.map",
     "787.6d5cc1be.chunk.js.map": "/cernunnos/static/js/787.6d5cc1be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e630c84.css",
-    "static/js/main.cb114058.js"
+    "static/js/main.77d69bec.js"
   ]
 }
