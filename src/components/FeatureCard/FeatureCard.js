@@ -26,7 +26,7 @@ function FeatureCard(data) {
                             <Chip
                                 label={priority}
                                 size="small"
-                                sx={{ bgcolor: "tertiary.light", color: "black", mr: 0.25 }}
+                                sx={{ bgcolor: "tertiary.light", color: "background.default", mr: 0.25 }}
                             />
                             {assigned.map((value, index) => {
                                 return (
@@ -85,6 +85,7 @@ function FeatureCard(data) {
                             borderStyle: "inset",
                             borderColor: "secondary.light",
                             bgcolor: "tertiary.main",
+                            color: "background.default",
                         }}
                     >
                         {description}
