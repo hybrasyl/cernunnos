@@ -55,6 +55,8 @@ const Nav = () => {
                                 description={card.description}
                                 target={card.target}
                                 category={card.category}
+                                assigned={card.assigned}
+                                priority={card.priority}
                             />
                         </Grid>
                     ) : (

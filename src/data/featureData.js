@@ -1,3 +1,35 @@
+/* Template & Notes:
+
+{
+    id: "",
+    title: "",
+    stage: "",
+    description: "",
+    category: "",
+    image: "",
+    target: "",
+    assigned: "",
+    priority: "",
+},
+
+id must be unique
+title is limited to ~30 characters
+stages: concept, requirements, analysis, design, build, SIT, UAT, Implemented
+description is limited to ~100 words?
+image: place in image folder, use placeholder.png if no image yet
+target: release number if known, otherwise alpha/beta/launch/postlaunch
+assigned: 
+    pip_fire_earth.png = kerden/sabrael
+    pip_earth_water.png = kerden/dalta
+    pip_fire_water.png = sabrael/dalta
+    pip_water_earth_fire.png = all three of us
+    pip_time.png = unassigned
+    pip_fire.png = sabrael
+    pip_earth.png = kerden
+    pip_water.png = dalta
+priority: 1-5, 1 being low, 5 being high
+*/
+
 const featureData = [
     {
         id: "1",
@@ -7,6 +39,8 @@ const featureData = [
         category: "Architecture",
         image: "placeholder.png",
         target: "0.9.0",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "2",
@@ -16,6 +50,8 @@ const featureData = [
         category: "Architecture",
         image: "placeholder.png",
         target: "0.8.2",
+        assigned: ["pip_earth.png", "pip_fire.png"],
+        priority: "1",
     },
     {
         id: "3",
@@ -25,6 +61,8 @@ const featureData = [
         category: "Architecture",
         image: "placeholder.png",
         target: "0.8.2",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "4",
@@ -34,6 +72,8 @@ const featureData = [
         category: "Architecture",
         image: "placeholder.png",
         target: "0.9.0",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "5",
@@ -43,6 +83,8 @@ const featureData = [
         category: "Architecture",
         image: "placeholder.png",
         target: "Post-launch",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "6",
@@ -52,6 +94,8 @@ const featureData = [
         category: "Architecture",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "7",
@@ -61,6 +105,8 @@ const featureData = [
         category: "Player Systems",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "8",
@@ -70,6 +116,8 @@ const featureData = [
         category: "Player Systems",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "9",
@@ -79,6 +127,8 @@ const featureData = [
         category: "Player Systems",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "10",
@@ -88,6 +138,8 @@ const featureData = [
         category: "Player Systems",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "11",
@@ -97,6 +149,8 @@ const featureData = [
         category: "Player Systems",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "12",
@@ -106,6 +160,8 @@ const featureData = [
         category: "Player Systems",
         image: "college.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "13",
@@ -115,15 +171,19 @@ const featureData = [
         category: "Player Systems",
         image: "theater.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "14",
-        title: "Horizontal Post Master Progression",
+        title: "Horizontal Master Progression",
         stage: "Concept",
         description: "Implement specialization categories to allow players to gain bonuses for preferred play-style and unlock perks",
         category: "Player Systems",
         image: "placeholder.png",
         target: "Post-Launch",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "15",
@@ -133,6 +193,8 @@ const featureData = [
         category: "UI/UX",
         image: "placeholder.png",
         target: "0.9.0",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "16",
@@ -142,6 +204,8 @@ const featureData = [
         category: "UI/UX",
         image: "placeholder.png",
         target: "0.9.0",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "17",
@@ -151,6 +215,8 @@ const featureData = [
         category: "UI/UX",
         image: "placeholder.png",
         target: "TBD",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "18",
@@ -160,6 +226,8 @@ const featureData = [
         category: "UI/UX",
         image: "placeholder.png",
         target: "TBD",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "19",
@@ -169,6 +237,8 @@ const featureData = [
         category: "UI/UX",
         image: "placeholder.png",
         target: "TBD",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "20",
@@ -178,6 +248,8 @@ const featureData = [
         category: "UI/UX",
         image: "placeholder.png",
         target: "TBD",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "21",
@@ -187,6 +259,8 @@ const featureData = [
         category: "UI/UX",
         image: "placeholder.png",
         target: "TBD",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "22",
@@ -196,6 +270,8 @@ const featureData = [
         category: "UI/UX",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "23",
@@ -205,6 +281,8 @@ const featureData = [
         category: "UI/UX",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "24",
@@ -214,6 +292,8 @@ const featureData = [
         category: "UI/UX",
         image: "placeholder.png",
         target: "TBD",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "25",
@@ -223,6 +303,8 @@ const featureData = [
         category: "Support Programs",
         image: "placeholder.png",
         target: "TBD",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "26",
@@ -232,6 +314,8 @@ const featureData = [
         category: "Support Programs",
         image: "creidhne.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "27",
@@ -241,6 +325,8 @@ const featureData = [
         category: "Support Programs",
         image: "placeholder.png",
         target: "Post-launch",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "28",
@@ -250,6 +336,8 @@ const featureData = [
         category: "Support Programs",
         image: "placeholder.png",
         target: "TBD",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "29",
@@ -259,6 +347,8 @@ const featureData = [
         category: "Support Programs",
         image: "placeholder.png",
         target: "TBD",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "30",
@@ -268,6 +358,8 @@ const featureData = [
         category: "UI/UX",
         image: "placeholder.png",
         target: "TBD",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "31",
@@ -277,6 +369,8 @@ const featureData = [
         category: "World",
         image: "placeholder.png",
         target: "1.0",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "32",
@@ -286,6 +380,8 @@ const featureData = [
         category: "World",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "33",
@@ -295,6 +391,8 @@ const featureData = [
         category: "World",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "34",
@@ -304,6 +402,8 @@ const featureData = [
         category: "World",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "35",
@@ -313,6 +413,8 @@ const featureData = [
         category: "World",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "36",
@@ -322,6 +424,8 @@ const featureData = [
         category: "World",
         image: "placeholder.png",
         target: "0.9.1",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "37",
@@ -331,6 +435,8 @@ const featureData = [
         category: "World",
         image: "placeholder.png",
         target: "0.8.1",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "38",
@@ -340,6 +446,8 @@ const featureData = [
         category: "World",
         image: "placeholder.png",
         target: "0.9.0",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "39",
@@ -349,6 +457,8 @@ const featureData = [
         category: "World",
         image: "placeholder.png",
         target: "0.9.0",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "40",
@@ -358,6 +468,8 @@ const featureData = [
         category: "World",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "41",
@@ -367,6 +479,8 @@ const featureData = [
         category: "Player Systems",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "42",
@@ -376,6 +490,8 @@ const featureData = [
         category: "World",
         image: "placeholder.png",
         target: "Implemented",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "43",
@@ -385,6 +501,8 @@ const featureData = [
         category: "World",
         image: "placeholder.png",
         target: "0.9.0",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "44",
@@ -394,6 +512,8 @@ const featureData = [
         category: "World",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "45",
@@ -403,6 +523,8 @@ const featureData = [
         category: "Maps",
         image: "rucesion.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "46",
@@ -412,6 +534,8 @@ const featureData = [
         category: "Maps",
         image: "mileth.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "47",
@@ -421,6 +545,8 @@ const featureData = [
         category: "Maps",
         image: "piet.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "48",
@@ -430,6 +556,8 @@ const featureData = [
         category: "Maps",
         image: "loures.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "49",
@@ -439,6 +567,8 @@ const featureData = [
         category: "Maps",
         image: "abel.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "50",
@@ -448,6 +578,8 @@ const featureData = [
         category: "Maps",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "51",
@@ -457,6 +589,8 @@ const featureData = [
         category: "Maps",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "52",
@@ -466,6 +600,8 @@ const featureData = [
         category: "Maps",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "53",
@@ -475,6 +611,8 @@ const featureData = [
         category: "Maps",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "54",
@@ -484,6 +622,8 @@ const featureData = [
         category: "Maps",
         image: "crypt.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "55",
@@ -493,6 +633,8 @@ const featureData = [
         category: "Maps",
         image: "warehouse.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "56",
@@ -502,6 +644,8 @@ const featureData = [
         category: "Maps",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "57",
@@ -511,6 +655,8 @@ const featureData = [
         category: "Maps",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "58",
@@ -520,6 +666,8 @@ const featureData = [
         category: "Maps",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "59",
@@ -529,6 +677,8 @@ const featureData = [
         category: "Maps",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "60",
@@ -538,6 +688,8 @@ const featureData = [
         category: "Maps",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "61",
@@ -547,6 +699,8 @@ const featureData = [
         category: "Maps",
         image: "ealagad.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "62",
@@ -556,29 +710,31 @@ const featureData = [
         category: "Maps",
         image: "dubhaim.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
     {
         id: "63",
-        title: "Repeatable Township Quests",
+        title: "Repeatable Town Quests",
         stage: "Concept",
         description: "Create small task quests for NPCs in each of the towns",
         category: "World",
         image: "placeholder.png",
         target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
+    },
+    {
+        id: "64",
+        title: "Town Reputation",
+        stage: "Concept",
+        description: "Create small task quests for NPCs in each of the towns",
+        category: "World",
+        image: "placeholder.png",
+        target: "Beta",
+        assigned: ["pip_earth.png"],
+        priority: "1",
     },
 ]
 
 export default featureData
-
-/* Template:
-{
-    id: "",
-    title: "",
-    stage: "",
-    description: "",
-    category: "",
-    image: "",
-    target: "",
-},
-
-*/
