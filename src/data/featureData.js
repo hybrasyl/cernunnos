@@ -104,7 +104,7 @@ const featureData = [
         stage: "Design",
         description: "Refresh and implement college system, allow for expansion",
         category: "Player Systems",
-        image: "placeholder.png",
+        image: "college.png",
         target: "Beta",
     },
     {
@@ -113,7 +113,7 @@ const featureData = [
         stage: "Concept",
         description: "Create system for hosting theatrical elements",
         category: "Player Systems",
-        image: "placeholder.png",
+        image: "theater.png",
         target: "Beta",
     },
     {
