@@ -557,6 +557,15 @@ const featureData = [
         image: "dubhaim.png",
         target: "Beta",
     },
+    {
+        id: "63",
+        title: "Repeatable Township Quests",
+        stage: "Concept",
+        description: "Create small task quests for NPCs in each of the towns",
+        category: "World",
+        image: "placeholder.png",
+        target: "Beta",
+    },
 ]
 
 export default featureData
