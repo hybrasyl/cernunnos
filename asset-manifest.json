@@ -1,30 +1,33 @@
 {
   "files": {
     "main.css": "/cernunnos/static/css/main.6e630c84.css",
-    "main.js": "/cernunnos/static/js/main.a62362ab.js",
+    "main.js": "/cernunnos/static/js/main.cb114058.js",
     "static/js/787.6d5cc1be.chunk.js": "/cernunnos/static/js/787.6d5cc1be.chunk.js",
     "static/media/mileth.png": "/cernunnos/static/media/mileth.d6c59d1d6268f1fa4167.png",
     "static/media/rucesion.png": "/cernunnos/static/media/rucesion.ea42dddd1ee440fa0326.png",
     "static/media/piet.png": "/cernunnos/static/media/piet.aae0f63973cad2cfd717.png",
     "static/media/abel.png": "/cernunnos/static/media/abel.8a985e9e999d8e479f3b.png",
-    "static/media/loures.png": "/cernunnos/static/media/loures.49e7ebb80b8f66d497b3.png",
+    "static/media/loures.png": "/cernunnos/static/media/loures.693f1c0868a63b3ce6a4.png",
     "static/media/dubhaim.png": "/cernunnos/static/media/dubhaim.d3bace7cd435d10e71b2.png",
     "static/media/ealagad.png": "/cernunnos/static/media/ealagad.5fcd368c1ec032357629.png",
+    "static/media/college.png": "/cernunnos/static/media/college.0b6b6247e4a19dee0440.png",
     "static/media/crypt.png": "/cernunnos/static/media/crypt.f0492a1708b0b859bb9a.png",
+    "static/media/theater.png": "/cernunnos/static/media/theater.8267f3b5f029fb68d835.png",
     "static/media/placeholder.png": "/cernunnos/static/media/placeholder.0c548f29623824496be1.png",
     "static/media/warehouse.png": "/cernunnos/static/media/warehouse.33546a98b06afa421a86.png",
     "static/media/yaldevi-all-400-normal.woff": "/cernunnos/static/media/yaldevi-all-400-normal.dbb3deed15b549132f61.woff",
     "static/media/creidhne.png": "/cernunnos/static/media/creidhne.0c41baf0e70cf5eb4ebf.png",
     "static/media/yaldevi-sinhala-400-normal.woff2": "/cernunnos/static/media/yaldevi-sinhala-400-normal.9df702884b228a1fe3d4.woff2",
+    "static/media/implemented.png": "/cernunnos/static/media/implemented.ad89b604eab3267eb3eb.png",
     "static/media/yaldevi-latin-400-normal.woff2": "/cernunnos/static/media/yaldevi-latin-400-normal.105b4c4a2723746fab59.woff2",
     "static/media/yaldevi-latin-ext-400-normal.woff2": "/cernunnos/static/media/yaldevi-latin-ext-400-normal.40a01cc927b890fe29b7.woff2",
     "index.html": "/cernunnos/index.html",
     "main.6e630c84.css.map": "/cernunnos/static/css/main.6e630c84.css.map",
-    "main.a62362ab.js.map": "/cernunnos/static/js/main.a62362ab.js.map",
+    "main.cb114058.js.map": "/cernunnos/static/js/main.cb114058.js.map",
     "787.6d5cc1be.chunk.js.map": "/cernunnos/static/js/787.6d5cc1be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e630c84.css",
-    "static/js/main.a62362ab.js"
+    "static/js/main.cb114058.js"
   ]
 }
