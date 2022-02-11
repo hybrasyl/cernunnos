@@ -1,10 +1,10 @@
 # Hybrasyl - Cernunnos Roadmap
 
-[Project website](http://hybrasyl.com/) -
-[Bug tracker](https://www.hybrasyl.com/bugs/) -
-[Server](https://github.com/hybrasyl/server) - 
-[Public World Data](https://github.com/hybrasyl/ceridwen/) -
-[Roadmap](https://hybrasyl.github.io/cernunnos/)
+[![Project website](https://img.shields.io/badge/-Project%20Website-blue?style=plastic)](http://hybrasyl.com/) 
+[![Bug Tracker](https://img.shields.io/badge/-Bug%20Tracker-blue?style=plastic)](https://www.hybrasyl.com/bugs/) 
+[![Server](https://img.shields.io/badge/-Server-blue?style=plastic)](https://github.com/hybrasyl/server)
+[![Public World Data](https://img.shields.io/badge/-Public%20World%20Data-blue?style=plastic)](https://github.com/hybrasyl/ceridwen/)
+[![Road Map](https://img.shields.io/badge/-Road%20Map-blue?style=plastic)](https://hybrasyl.github.io/cernunnos/)
 
 
 ## **Welcome to Cernunnos!**
