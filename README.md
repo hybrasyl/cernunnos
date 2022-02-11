@@ -3,7 +3,8 @@
 [Project website](http://hybrasyl.com/) -
 [Bug tracker](https://www.hybrasyl.com/bugs/) -
 [Server](https://github.com/hybrasyl/server) - 
-[Public World Data](https://github.com/hybrasyl/ceridwen/)
+[Public World Data](https://github.com/hybrasyl/ceridwen/) -
+[Roadmap](https://hybrasyl.github.io/cernunnos/)
 
 
 ## **Welcome to Cernunnos!**
