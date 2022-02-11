@@ -18,7 +18,8 @@ For an overview of how to set up Hybrasyl for use, please visit the [server proj
 - [ ] Identify public Hybrasyl server vs. official instance improvements
 - [ ] More details per item
 - [ ] View by Phase
-- [ ] View only Implemented
+- [ ] View Implemented
+- [ ] View by Release Target
 - [ ] Add voting
 
 ## Contributing to Cernunnos Roadmap
