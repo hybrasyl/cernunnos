@@ -2,7 +2,7 @@ import React from "react";
 import { Card, CardContent, CardMedia, Typography, Divider, Paper, Box, Chip } from "@mui/material";
 
 function FeatureCard(data) {
-    const { image, title, stage, description, target, category, assigned, priority } = data;
+    const { image, title, stage, description, target, category, assigned, priority, difficulty } = data;
     return (
         <Card
             sx={{
@@ -91,6 +91,13 @@ function FeatureCard(data) {
                         {description}
                     </Paper>
                 </Typography>
+                <Box sx={{width: "16%", position: "relative", left: "82%", bottom: 15, }}>
+                    <Paper sx={{ border: 2, borderStyle: "ridge", borderColor: "tertiary.light"}}>
+                        <Typography textAlign="center">
+                            {difficulty}/10
+                        </Typography>
+                    </Paper>
+                </Box>
             </CardContent>
         </Card>
     );

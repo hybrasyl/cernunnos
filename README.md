@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Hybrasyl - Cernunnos Roadmap
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Project website](http://hybrasyl.com/) -
+[Bug tracker](https://www.hybrasyl.com/bugs/) -
+[Server](https://github.com/hybrasyl/server) - 
+[Public World Data](https://github.com/hybrasyl/ceridwen/)
 
-## Available Scripts
 
-In the project directory, you can run:
+## **Welcome to Cernunnos!**
 
-### `npm start`
+Cernunnos is the Hybrasyl Roadmap, a quick guide to the planned features to be added to the official Eris Corporation instance of Hybrasyl Server.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+For an overview of how to set up Hybrasyl for use, please visit the [server project](https://github.com/hybrasyl/server).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Future Improvements
+- [ ] Expandable Images
+- [ ] Identify public Hybrasyl server vs. official instance improvements
+- [ ] More details per item
+- [ ] View by Phase
+- [ ] View only Implemented
+- [ ] Add voting
 
-### `npm test`
+## Contributing to Cernunnos Roadmap
+To see a feature reviewed for implementation for the official Eris Corporation instance of Hybrasyl server, please send an ingame mail to "Feedback" to outline your idea.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To see a feature reviewed for implementation for the public Hybrasyl Server, see [Contributing to Hybrasyl Server](#contributing-to-hybrasyl-server).
 
-### `npm run build`
+## Contributing to Hybrasyl Server
+We welcome contributions to the project! We encourage new developers to visit
+us on Discord and get to know us first, especially if you plan on tackling a substantial feature or change.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+If you would like to contribute content to the [Hybrasyl Project](https://github.com/hybrasyl/server), feel free to fork and submit a pull request.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

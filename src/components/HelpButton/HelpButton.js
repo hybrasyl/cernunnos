@@ -121,15 +121,8 @@ export default function FullScreenDialog() {
                             <Divider />
                             <ListItem>
                                 <ListItemText
-                                    primary="System Integration Testing (SIT)"
-                                    secondary="Project build has been completed and integration into Hybrasyl has begun."
-                                />
-                            </ListItem>
-                            <Divider />
-                            <ListItem>
-                                <ListItemText
                                     primary="User Acceptance Testing (UAT)"
-                                    secondary="Project integration has completed, and quality assurance testing has begun."
+                                    secondary="Project build has completed, and quality assurance testing has begun."
                                 />
                             </ListItem>
                             <Divider />
@@ -211,6 +204,21 @@ export default function FullScreenDialog() {
                     <AccordionDetails sx={{ bgcolor: "primary.light",}}>
                         <Typography>
                             If a specific release has been identified, the release number is included (e.g., 0.8.0).  If no specific release has been identified, the general phase that the release can be expected in is listed (Alpha, Beta, Launch, Post-Launch)
+                        </Typography>
+                    </AccordionDetails>
+                </Accordion>
+                <Accordion sx={{ pt: 1, "&:before": { display: "none" } }}>
+                    <AccordionSummary
+                        expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
+                        aria-controls="panel3a-content"
+                        id="panel3a-header"
+                        sx={{ bgcolor: "background.default" }}
+                    >
+                        <Typography>What is the #/10 indicator in the bottom right of the card?</Typography>
+                    </AccordionSummary>
+                    <AccordionDetails sx={{ bgcolor: "primary.light",}}>
+                        <Typography>
+                            This number represents the current understanding of difficulty to implement, on a scale of 1 to 10, with 1 being the easiest and 10 being the most difficult.
                         </Typography>
                     </AccordionDetails>
                 </Accordion>

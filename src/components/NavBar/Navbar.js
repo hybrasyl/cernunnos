@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import featureData from "../../data/featureData.js";
-import { Grid, Button, Box, Divider } from "@mui/material";
+import { Grid, Button, Box, } from "@mui/material";
 import FeatureCard from "../FeatureCard/FeatureCard.js";
 const Nav = () => {
     const uniques = [...new Set(featureData.map((item) => item.category))];
@@ -57,6 +57,7 @@ const Nav = () => {
                                 category={card.category}
                                 assigned={card.assigned}
                                 priority={card.priority}
+                                difficulty={card.difficulty}
                             />
                         </Grid>
                     ) : (
