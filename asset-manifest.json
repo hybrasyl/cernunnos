@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/cernunnos/static/css/main.6e630c84.css",
-    "main.js": "/cernunnos/static/js/main.74c418d4.js",
+    "main.js": "/cernunnos/static/js/main.6bb0de73.js",
     "static/js/787.6d5cc1be.chunk.js": "/cernunnos/static/js/787.6d5cc1be.chunk.js",
+    "static/media/undine.png": "/cernunnos/static/media/undine.6e2763e666526841bf3f.png",
+    "static/media/oren.png": "/cernunnos/static/media/oren.8a4d35ac34e9e921728e.png",
     "static/media/piet.png": "/cernunnos/static/media/piet.54e9ad37bc852bd91fa1.png",
     "static/media/loures.png": "/cernunnos/static/media/loures.956406cf4c2a68d46957.png",
     "static/media/abel.png": "/cernunnos/static/media/abel.d342d820876e58aef958.png",
@@ -35,11 +37,11 @@
     "static/media/yaldevi-latin-ext-400-normal.woff2": "/cernunnos/static/media/yaldevi-latin-ext-400-normal.40a01cc927b890fe29b7.woff2",
     "index.html": "/cernunnos/index.html",
     "main.6e630c84.css.map": "/cernunnos/static/css/main.6e630c84.css.map",
-    "main.74c418d4.js.map": "/cernunnos/static/js/main.74c418d4.js.map",
+    "main.6bb0de73.js.map": "/cernunnos/static/js/main.6bb0de73.js.map",
     "787.6d5cc1be.chunk.js.map": "/cernunnos/static/js/787.6d5cc1be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e630c84.css",
-    "static/js/main.74c418d4.js"
+    "static/js/main.6bb0de73.js"
   ]
 }
