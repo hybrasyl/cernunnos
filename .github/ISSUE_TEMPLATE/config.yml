@@ -1,0 +1,8 @@
+# Keep blank issues enabled: the desktop apps' "Report an issue" button opens a
+# prefilled blank issue (github.com/.../issues/new?title=...&body=...), which must
+# keep working alongside the Bug report form.
+blank_issues_enabled: true
+contact_links:
+  - name: Hybrasyl website
+    url: https://www.hybrasyl.com
+    about: General information about Hybrasyl.

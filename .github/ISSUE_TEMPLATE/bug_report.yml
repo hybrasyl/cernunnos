@@ -1,0 +1,42 @@
+name: Bug report
+description: Report a problem with a Hybrasyl desktop app.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for filing a report! If you got here from an app's **Report an
+        issue** button, the fields below are already filled in for you — just
+        review and submit.
+  - type: dropdown
+    id: app
+    attributes:
+      label: Which app?
+      options:
+        - Creidhne
+        - Taliesin
+        - Oghma
+        - Elatha
+        - Mabon
+        - Dagda
+        - Epona
+        - Other / not sure
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics
+      description: >-
+        If the app attached a diagnostics block, paste it here. It is already
+        scrubbed of usernames, file paths, and other identifying details.
+      render: text
+    validations:
+      required: false
