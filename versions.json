@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "apps": {
+    "balor": {
+      "version": "1.2.1",
+      "released": "2026-09-21T01:00:21Z",
+      "url": "https://github.com/eriscorp/balor/releases/tag/v1.2.1"
+    },
+    "creidhne": {
+      "version": "1.13.1",
+      "released": "2026-09-20T21:10:15Z",
+      "url": "https://github.com/hybrasyl/creidhne/releases/tag/v1.13.1"
+    },
+    "dagda": {
+      "version": "1.4.1",
+      "released": "2026-09-21T00:57:03Z",
+      "url": "https://github.com/eriscorp/dagda/releases/tag/v1.4.1"
+    },
+    "epona": {
+      "version": "2.8.1",
+      "released": "2026-09-21T02:02:10Z",
+      "url": "https://github.com/eriscorp/epona/releases/tag/v2.8.1"
+    },
+    "mabon": {
+      "version": "1.4.1",
+      "released": "2026-09-21T02:31:25Z",
+      "url": "https://github.com/eriscorp/mabon/releases/tag/v1.4.1"
+    },
+    "oghma": {
+      "version": "1.6.0",
+      "released": "2026-09-21T02:48:37Z",
+      "url": "https://github.com/eriscorp/oghma/releases/tag/v1.6.0"
+    },
+    "taliesin": {
+      "version": "2.13.1",
+      "released": "2026-09-21T03:24:53Z",
+      "url": "https://github.com/hybrasyl/taliesin/releases/tag/v2.13.1"
+    }
+  }
+}

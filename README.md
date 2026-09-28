@@ -38,3 +38,7 @@ Each issue is tagged with the app it came from:
 | `app:mabon` | Mabon |
 | `app:dagda` | Dagda |
 | `app:epona` | Epona — client/server launcher |
+
+## versions.json
+
+`versions.json` holds the latest stable version of each desktop app. The apps read it to tell you when an update is available. It is updated as part of each app's release. Do not edit it by hand.
