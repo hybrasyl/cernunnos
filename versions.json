@@ -2,9 +2,9 @@
   "schema": 1,
   "apps": {
     "balor": {
-      "version": "1.4.0",
-      "released": "2026-10-29T17:45:42Z",
-      "url": "https://github.com/eriscorp/balor/releases/tag/v1.4.0"
+      "version": "1.5.0",
+      "released": "2026-11-04T18:34:03Z",
+      "url": "https://github.com/eriscorp/balor/releases/tag/v1.5.0"
     },
     "creidhne": {
       "version": "1.15.0",
